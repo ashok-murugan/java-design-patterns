@@ -10,7 +10,7 @@ The Singleton Pattern ensures a class has only one instance throughout the appli
 
 ---
 
-## Production-level Code Example: Singleton for a Configuration Manager
+##  Code Example: Singleton for a Configuration Manager
 
 ```java
 import java.util.Properties;

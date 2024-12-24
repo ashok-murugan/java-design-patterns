@@ -8,7 +8,7 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 - To ensure compatibility among created objects.
 - To follow the Open/Closed Principle by allowing extensions without modifying existing code.
 
-## Production-level Code Example: Cross-Platform UI Theme Factory
+##  Code Example: Cross-Platform UI Theme Factory
 
 ### Step 1: Define Abstract Products
 ```java
