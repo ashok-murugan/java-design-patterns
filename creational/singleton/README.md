@@ -63,7 +63,7 @@ public class ConfigurationManager {
 ## Usage Example
 
 ```java
-public class Main {
+public class SampleApp {
     public static void main(String[] args) {
         // Access the singleton instance
         ConfigurationManager configManager = ConfigurationManager.getInstance();

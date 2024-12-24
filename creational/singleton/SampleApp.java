@@ -42,7 +42,7 @@ class ConfigurationManager {
         properties.setProperty(key, value);
     }
 }
-public class Main {
+public class SampleApp {
     public static void main(String[] args) {
         // Access the singleton instance
         ConfigurationManager configManager = ConfigurationManager.getInstance();
