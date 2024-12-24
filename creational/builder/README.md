@@ -107,3 +107,13 @@ public class CustomerApp {
 }
 ```
 
+## Benefits
+- **Separation of concerns**: The construction logic is encapsulated within the builder, making it easier to manage.
+- **Flexible object creation**: You can easily create different types of user accounts without changing the client code.
+- **Avoids large constructors**: Instead of having a constructor with many parameters, the builder pattern allows you to set only the required properties.
+
+## Pitfalls
+- **Increased complexity**: For simple objects, the builder pattern may introduce unnecessary complexity.
+- **More classes**: If there are many types of objects to build, you may end up creating many builder classes.
+
+
